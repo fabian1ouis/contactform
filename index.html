@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="icon" type="image/png" sizes="32x32" href="./assets/images/favicon-32x32.png">
+  <title>Frontend Mentor | Contact form</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <main>
+    <form id="contact-form" novalidate>
+      <h1>Contact Us</h1>
+
+      <div class="form-group">
+        <label for="first-name">First Name <span aria-hidden="true">*</span></label>
+        <input type="text" id="first-name" name="first-name" required aria-describedby="first-name-error">
+        <p id="first-name-error" class="error-message" aria-live="polite"></p>
+      </div>
+
+      <div class="form-group">
+        <label for="last-name">Last Name <span aria-hidden="true">*</span></label>
+        <input type="text" id="last-name" name="last-name" required aria-describedby="last-name-error">
+        <p id="last-name-error" class="error-message" aria-live="polite"></p>
+      </div>
+
+      <div class="form-group">
+        <label for="email">Email Address <span aria-hidden="true">*</span></label>
+        <input type="email" id="email" name="email" required aria-describedby="email-error">
+        <p id="email-error" class="error-message" aria-live="polite"></p>
+      </div>
+
+      <fieldset>
+        <legend>Query Type <span aria-hidden="true">*</span></legend>
+        <div>
+          <input type="radio" id="general" name="query-type" value="general" required>
+          <label for="general">General Enquiry</label>
+        </div>
+        <div>
+          <input type="radio" id="support" name="query-type" value="support" required>
+          <label for="support">Support Request</label>
+        </div>
+        <p id="query-error" class="error-message" aria-live="polite"></p>
+      </fieldset>
+
+      <div class="form-group">
+        <label for="message">Message <span aria-hidden="true">*</span></label>
+        <textarea id="message" name="message" rows="5" required aria-describedby="message-error"></textarea>
+        <p id="message-error" class="error-message" aria-live="polite"></p>
+      </div>
+
+      <div class="form-group">
+        <label class="checkbox-label">
+          <input type="checkbox" id="consent" name="consent" required>
+          I consent to being contacted by the team
+        </label>
+        <p id="consent-error" class="error-message" aria-live="polite"></p>
+      </div>
+
+      <button type="submit">Submit</button>
+    </form>
+  </main>
+
+  <div class="attribution">
+    Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank" rel="noopener">Frontend Mentor</a>. 
+    Coded by <a href="#">Fabian Louis</a>.
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
