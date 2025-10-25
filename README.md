@@ -50,8 +50,8 @@ Users should be able to:
 
 ### 🔗 Links
 
-- **Solution URL:** [https://github.com/fabian1ouis/contact-form](https://github.com/fabian1ouis/contact-form)  
-- **Live Site URL:** [https://fabian1ouis.github.io/contact-form/](https://fabian1ouis.github.io/contact-form/)
+- **Solution URL:** [https://github.com/fabian1ouis/contact-form](https://github.com/fabian1ouis/contactform)  
+- **Live Site URL:** [https://fabian1ouis.github.io/contact-form/](https://fabian1ouis.github.io/contactform/)
 
 ---
 
