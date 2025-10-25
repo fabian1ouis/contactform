@@ -44,7 +44,7 @@ Users should be able to:
 
 ### 🖼️ Screenshot
 
-![Desktop Preview](./design/desktop-preview.jpg)
+![Desktop Preview](./design/desktop-preview.png)
 
 ---
 
